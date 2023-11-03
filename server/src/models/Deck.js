@@ -6,4 +6,4 @@ let Deck = sequelize.define('Deck', {
     xp: DataTypes.INTEGER
 })
 
-module.exports = Deck
+module.exports = Deck;

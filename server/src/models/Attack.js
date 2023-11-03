@@ -7,4 +7,4 @@ let Attack = sequelize.define("Attack", {
     staminaCost: DataTypes.INTEGER
 })
 
-module.exports = Attack
+module.exports = Attack;

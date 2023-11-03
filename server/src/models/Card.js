@@ -8,4 +8,4 @@ let Card = sequelize.define("Card", {
     imgURL: DataTypes.STRING
 })
 
-module.exports = Card
+module.exports = Card;
