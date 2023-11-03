@@ -1,7 +1,9 @@
 const { DataTypes } = require("sequelize");
+const { sequelize } = require("../db/config");
 
 // create your User model here
-let User = db.define('User', {
-    id: DataTypes.INTEGER,
+let User = sequelize.define('User', {
     username: DataTypes.STRING
 })
+
+module.exports = User;
